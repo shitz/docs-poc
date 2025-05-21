@@ -18,7 +18,7 @@ collections:
   folder: docs/tutorials-basic
   create: true
   publish: false
-  slug: '{{slug}}'
+  widget: list
   extension: md
   fields:
     - label: Sidebar Position
@@ -36,7 +36,7 @@ collections:
   folder: docs/tutorials-extra
   create: true
   publish: false
-  slug: '{{slug}}'
+  widget: list
   extension: md
   fields:
     - label: Sidebar Position
