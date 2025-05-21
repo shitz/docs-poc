@@ -18,32 +18,35 @@ collections:
   folder: docs/tutorials-basic
   create: true
   publish: false
+  slug: '{{slug}}'
   extension: md
   fields:
+    - label: Sidebar Position
+      name: sidebar_position
+      widget: number
+      required: false
     - label: Title
       name: title
       widget: string
     - label: Body
       name: body
       widget: markdown
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
 - name: extra_tutorials
   label: "Extra Tutorials"
   folder: docs/tutorials-extra
   create: true
   publish: false
+  slug: '{{slug}}'
   extension: md
   fields:
+    - label: Sidebar Position
+      name: sidebar_position
+      widget: number
+      required: false
     - label: Title
       name: title
       widget: string
     - label: Body
       name: body
       widget: markdown
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
+
