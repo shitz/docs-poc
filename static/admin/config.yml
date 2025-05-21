@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   repo: shitz/docs-poc
   branch: main
-  identity_url: https://auth.decapbridge.com/sites/545e7d04-6453-47fb-9c44-d1deef692a8f
-  gateway_url: https://gateway.decapbridge.com
+  identity_url: https://anapaya-docs-poc.netlify.app/.netlify/identity
+  gateway_url: https://anapaya-docs-poc.netlify.app/.netlify/git
 
   commit_messages:
     create: Create {{collection}} “{{slug}}” - {{author-name}} <{{author-login}}> via DecapBridge
