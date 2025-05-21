@@ -13,15 +13,11 @@ publish_mode: editorial_workflow
 site_url: https://anapaya-docs-poc.netlify.app/
 
 collections:
-- name: docs
-  label: "docs"
-  folder: docs
+- name: basic_tutorials
+  label: "Basic Tutorials"
+  folder: docs/tutorials-basic
   create: true
-  nested:
-    depth: 5
-    summary: '{{title}}'
   publish: false
-  identifier_field: title
   extension: md
   fields:
     - label: Title
@@ -34,6 +30,20 @@ collections:
       name: sidebar_position
       widget: number
       required: false
-  # adding a meta object with a path property allows editing the path of entries
-  # moving an existing entry will move the entire sub tree of the entry to the new location
-  meta: { path: { widget: string, label: 'Path', index_file: string } }
+- name: extra_tutorials
+  label: "Extra Tutorials"
+  folder: docs/tutorials-extra
+  create: true
+  publish: false
+  extension: md
+  fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Body
+      name: body
+      widget: markdown
+    - label: Sidebar Position
+      name: sidebar_position
+      widget: number
+      required: false
