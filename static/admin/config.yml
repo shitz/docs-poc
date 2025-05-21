@@ -15,7 +15,7 @@ site_url: https://anapaya-docs-poc.netlify.app/
 collections:
 - name: basic_tutorials
   label: "Basic Tutorials"
-  folder: docs/tutorials-basic
+  folder: docs/tutorial-basics
   create: true
   publish: false
   widget: list
@@ -33,7 +33,7 @@ collections:
       widget: markdown
 - name: extra_tutorials
   label: "Extra Tutorials"
-  folder: docs/tutorials-extra
+  folder: docs/tutorial-extras
   create: true
   publish: false
   widget: list
