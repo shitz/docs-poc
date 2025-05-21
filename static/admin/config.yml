@@ -1,0 +1,34 @@
+backend:
+  name: github
+  branch: main
+  repo: shitz/docs-poc
+  squash_merges: true
+
+# These lines should *not* be indented
+media_folder: "static/img" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/img/" # The src attribute for uploaded media will begin with /images/uploads
+
+# Enable the editorial workflow which translates to a pull request workflow.
+publish_mode: editorial_workflow
+site_url: https://anapaya-docs-poc.netlify.app/
+
+collections:
+- name: docs
+  label: "docs"
+  folder: docs
+  create: true
+  nested:
+    depth: 5
+    summary: '{{title}}'
+  identifier_field: title
+  extension: md
+  fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Body
+      name: body
+      widget: markdown
+  # adding a meta object with a path property allows editing the path of entries
+  # moving an existing entry will move the entire sub tree of the entry to the new location
+  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
