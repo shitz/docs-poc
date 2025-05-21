@@ -1,7 +1,8 @@
 ---
-title: Create a Document
 sidebar_position: 2
+title: Create a Document
 ---
+THIS HAS BEEN ADAPTED!!111
 
 Documents are **groups of pages** connected through:
 
