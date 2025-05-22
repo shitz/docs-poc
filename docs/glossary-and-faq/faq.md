@@ -2,7 +2,7 @@
 title: Frequently Asked Questions (FAQ)
 sidebar_label: FAQ
 slug: /glossary-and-faq/faq
-position: 2
+sidebar_position: 2
 ---
 # Frequently Asked Questions (FAQ)
 

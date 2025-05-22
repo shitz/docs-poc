@@ -62,13 +62,37 @@ const config: Config = {
       },
       items: [
         {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          type: 'doc',
+          docId: 'index', // Points to docs/index.md
           position: 'left',
-          label: 'Tutorial',
+          label: 'Welcome', 
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          type: 'doc',
+          docId: 'products-and-use-cases/index', // Will point to the generated index for this category
+          position: 'left',
+          label: 'Products & Use Cases',
+        },
+        {
+          type: 'doc',
+          docId: 'technical-documentation/index', // Will point to the generated index for this category
+          position: 'left',
+          label: 'Technical Documentation',
+        },
+        {
+          type: 'doc',
+          docId: 'understanding-scion/index', // Will point to the generated index for this category
+          position: 'left',
+          label: 'Understanding SCION',
+        },
+        {
+          type: 'doc',
+          docId: 'glossary-and-faq/index', // Will point to the generated index for this category
+          position: 'left',
+          label: 'Glossary & FAQ',
+        },
+        {
+          href: 'https://github.com/facebook/docusaurus', // Assuming this is a placeholder to be kept or updated by the user
           label: 'GitHub',
           position: 'right',
         },

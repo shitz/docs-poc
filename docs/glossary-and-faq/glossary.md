@@ -2,7 +2,7 @@
 title: Glossary of Terms
 sidebar_label: Glossary
 slug: /glossary-and-faq/glossary
-position: 1
+sidebar_position: 1
 ---
 # Glossary of Terms
 

@@ -2,6 +2,7 @@
 title: Getting Started (Console)
 sidebar_label: Getting Started
 slug: /technical-documentation/console/getting-started
+sidebar_position: 1
 ---
-# 2.2.1 Getting Started
+# Getting Started
 - Setup Guide: how to connect an appliance

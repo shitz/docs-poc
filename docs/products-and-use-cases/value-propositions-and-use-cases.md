@@ -1,11 +1,11 @@
 ---
-title: 1.2 Value Propositions & Use Cases - SCION in Action
+title: Value Propositions & Use Cases - SCION in Action
 sidebar_label: Value Propositions & Use Cases
 slug: /products-and-use-cases/value-propositions
-position: 2
+sidebar_position: 2
 ---
 
-# 1.2 Value Propositions & Use Cases: SCION in Action
+# Value Propositions & Use Cases: SCION in Action
 
 *Target Audience: Sales, Pre-sales, Business Decision Makers*
 

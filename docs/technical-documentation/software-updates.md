@@ -2,7 +2,7 @@
 title: Software Updates & Lifecycle Management
 sidebar_label: Software Updates
 slug: /technical-documentation/software-updates
-position: 5
+sidebar_position: 5
 ---
 # Software Updates & Lifecycle Management
 - Accessing release notes.

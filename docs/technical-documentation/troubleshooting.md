@@ -2,7 +2,7 @@
 title: Troubleshooting Common Issues
 sidebar_label: Troubleshooting
 slug: /technical-documentation/troubleshooting
-position: 6
+sidebar_position: 6
 ---
 # Troubleshooting Common Issues
 - Connectivity Problems: Path resolution, beaconing issues, application connectivity.

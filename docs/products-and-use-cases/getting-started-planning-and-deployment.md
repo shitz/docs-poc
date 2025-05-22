@@ -1,11 +1,11 @@
 ---
-title: 1.3 Getting Started - Planning & Deployment
+title: Getting Started - Planning & Deployment
 sidebar_label: Planning & Deployment
 slug: /products-and-use-cases/getting-started
-position: 3
+sidebar_position: 3
 ---
 
-# 1.3 Getting Started: Planning & Deployment
+# Getting Started: Planning & Deployment
 
 *Target Audience: Pre-sales, Engineers, Network Operators*
 

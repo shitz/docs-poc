@@ -2,7 +2,7 @@
 title: Monitoring Your Anapaya SCION Environment
 sidebar_label: Monitoring
 slug: /technical-documentation/monitoring
-position: 4
+sidebar_position: 4
 ---
 # Monitoring Your Anapaya SCION Environment
 - Key Performance Indicators (KPIs) for EDGE, CORE, GATE.
