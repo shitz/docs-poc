@@ -1,51 +1,34 @@
 ---
+title: Welcome to the SCION-Powered Future with Anapaya
+sidebar_label: Welcome
 slug: /
-sidebar_position: 1
-title: Introduction
 ---
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Welcome to the SCION-Powered Future with Anapaya
 
-THIS ARE SOME CHANGES MADE DIRECTLY FROM DECAP CMS!
+## What is this Knowledge Base?
 
-## Getting Started
+-   **Purpose:** To provide a comprehensive, user-friendly knowledge base for sales, pre-sales, engineers, and network operators.
+-   **Audience:** Sales, pre-sales, engineers, network operators.
+-   **How to navigate:** "The Red Thread" - guiding users from concept to technical details, and links to the main categories.
 
-Get started by **creating a new site**.
+## The Internet's Next Evolution: Introducing SCION
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+-   Briefly explain SCION as a next-generation secure internet architecture.
+-   Key problems SCION solves (e.g., BGP vulnerabilities, lack of path control, DDoS).
+-   High-level benefits: Security, Control, Reliability, Transparency.
 
-### What you'll need
+## Anapaya: Your Partner in the SCION Ecosystem
 
-* [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
+-   Anapaya's mission and vision.
+-   How Anapaya products enable and leverage SCION.
+-   Brief overview of the product suite (EDGE, CORE, GATE, Console).
 
-  * When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Navigation to Main Categories:
 
-## Generate a new site
+-   **Products and Use Cases:** Learn about Anapaya's solutions and how they address real-world challenges.
+-   **Technical Documentation:** Dive deep into deploying, configuring, and managing Anapaya products.
+-   **Understanding SCION:** Explore the foundational concepts of the SCION architecture.
+-   **Glossary & FAQ:** Find definitions and answers to common questions.
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+(Inspiration for navigation: https://developer.hashicorp.com/vault/)
