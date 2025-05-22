@@ -1,10 +1,12 @@
 ---
 title: Software Updates & Lifecycle Management
 sidebar_label: Software Updates
-slug: /technical-documentation/software-updates
-sidebar_position: 5
+slug: /technical-documentation/anapaya-appliance/software-updates
+sidebar_position: 3
 ---
+
 # Software Updates & Lifecycle Management
+
 - Accessing release notes.
 - Upgrade procedures for each Anapaya product.
 - Best practices for maintenance windows and rollback.

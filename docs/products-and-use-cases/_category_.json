@@ -3,6 +3,7 @@
   "position": 1,
   "link": {
     "type": "generated-index",
-    "title": "Products and Use Cases Overview"
+    "title": "Products and Use Cases",
+    "slug": "/products-and-use-cases"
   }
 }
