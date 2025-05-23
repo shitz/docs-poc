@@ -23,7 +23,7 @@ site_url: https://anapaya-docs-poc.netlify.app/
 
 collections:
 - name: products
-  label: "Products and Use Cases"
+  label: "Products"
   folder: docs/products-and-use-cases/products
   create: true
   publish: false
@@ -41,7 +41,7 @@ collections:
       name: body
       widget: markdown
 - name: use_cases
-  label: "Products and Use Cases"
+  label: "Use Cases"
   folder: docs/products-and-use-cases/products
   create: true
   publish: false
