@@ -11,3 +11,6 @@ sidebar_position: 2
 - **Value Proposition:** Secure external connections, path control, geofencing for enterprise traffic.
 - **Key Features:** Path selection, multi-pathing, simple integration, optional payload encryption etc.
 - **Primary Use:** Connecting enterprise networks to SCION-enabled services and partners.
+
+
+CHANGES FROM THE CMS
