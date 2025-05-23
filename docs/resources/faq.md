@@ -1,9 +1,10 @@
 ---
 title: Frequently Asked Questions (FAQ)
 sidebar_label: FAQ
-slug: /glossary-and-faq/faq
-sidebar_position: 2
+slug: /resources/faq
+sidebar_position: 3
 ---
+
 # Frequently Asked Questions (FAQ)
 
 - General SCION questions.

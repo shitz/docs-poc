@@ -1,0 +1,9 @@
+{
+  "label": "Learning Hub",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Learning Hub",
+    "slug": "/learning-hub"
+  }
+}

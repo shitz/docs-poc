@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Anapaya Knowledge Base',
+  title: 'Docs',
   tagline: 'Anapaya - The SCION company',
   favicon: 'img/favicon.ico',
 
@@ -52,9 +52,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Anapaya Knowledge Base',
+      title: 'DOCS',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Anapaya Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -72,15 +72,15 @@ const config: Config = {
         },
         {
           type: 'docSidebar',
-          sidebarId: 'scionSideBar',
+          sidebarId: 'learningHubSideBar',
           position: 'left',
-          label: 'Understanding SCION',
+          label: 'Learning Hub',
         },
         {
           type: 'docSidebar',
-          sidebarId: 'glossarySideBar',
+          sidebarId: 'resourcesSideBar',
           position: 'left',
-          label: 'Glossary & FAQ',
+          label: 'Resources',
         },
       ],
     },
