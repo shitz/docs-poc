@@ -1,10 +1,8 @@
 ---
 title: Glossary of Terms
 sidebar_label: Glossary
-slug: /glossary-and-faq/glossary
-sidebar_position: 1
+slug: /resources/glossary
+sidebar_position: 4
 ---
-
-# Glossary of Terms
 
 Definitions of SCION-specific and Anapaya-specific terminology.

@@ -1,15 +1,13 @@
-// src/pages/index.js
 import React from 'react';
 import Layout from '@theme/Layout';
 import DocCardList from '@theme/DocCardList';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
-// This is a simplified example; you'd need to ensure these paths and descriptions are correct
 const homepageCategoryCards = [
   {
     type: 'category',
     label: 'Products & Use Cases',
-    href: '/docs/products-and-use-cases/products', // We need to link to the first item in the category...
+    href: '/docs/products-and-use-cases/use-cases', // We need to link to the first item in the category...
     description: 'Discover our product suite and how it can be deployed.',
   },
     {
@@ -20,15 +18,15 @@ const homepageCategoryCards = [
   },
   {
     type: 'category',
-    label: 'Understanding SCION',
-    href: '/docs/understanding-scion/core-concepts',
-    description: 'Learn the fundamentals of SCION technology.',
+    label: 'Learning Hub',
+    href: '/docs/learning-hub/understanding-scion',
+    description: 'Learn the fundamentals of Anapaya products and SCION technology.',
   },
   {
     type: 'category',
-    label: 'Glossary & FAQ',
-    href: '/docs/glossary-and-faq/glossary',
-    description: 'Find answers to common questions and terms used.',
+    label: 'Resources',
+    href: '/docs/resources/api',
+    description: 'API references, CLI documentation, and more.',
   },
 
 ];
