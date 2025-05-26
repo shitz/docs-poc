@@ -1,7 +1,7 @@
 ---
 title: Anapaya GATE - Bridging SCION and the Legacy Internet
 sidebar_label: Anapaya GATE
-slug: /products-and-use-cases/product/gate
+slug: /products-and-use-cases/products/gate
 sidebar_position: 4
 ---
 
