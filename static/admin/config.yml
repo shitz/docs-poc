@@ -22,129 +22,23 @@ publish_mode: editorial_workflow
 site_url: https://anapaya-docs-poc.netlify.app/
 
 collections:
-- name: products
-  label: "Products"
-  folder: docs/products-and-use-cases/products
+- name: docs
+  label: "Docs"
+  folder: docs
   create: true
   publish: false
   widget: list
   extension: md
+  nested:
+    depth: 10
+    summary: '{{title}}'
   fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
     - label: Title
       name: title
       widget: string
     - label: Body
       name: body
       widget: markdown
-- name: use_cases
-  label: "Use Cases"
-  folder: docs/products-and-use-cases/products
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-- name: anapaya-appliance
-  label: "Anapaya Appliance"
-  folder: docs/technical-documentation/anapaya-appliance
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-- name: anapaya-console
-  label: "Anapaya Console"
-  folder: docs/technical-documentation/anapaya-console
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-- name: anapaya-scion-ca
-  label: "Anapaya SCION CA"
-  folder: docs/technical-documentation/anapaya-scion-ca
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-- name: understanding-scion
-  label: "Understanding SCION"
-  folder: docs/understanding-scion
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-- name: glossary-and-faq
-  label: "Glossary & FAQ"
-  folder: docs/glossary-and-faq
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  fields:
-    - label: Sidebar Position
-      name: sidebar_position
-      widget: number
-      required: false
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
+  # adding a meta object with a path property allows editing the path of entries
+  # moving an existing entry will move the entire sub tree of the entry to the new location
+  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
