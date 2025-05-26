@@ -1,7 +1,7 @@
 ---
 title: Glossary of Terms
 sidebar_label: Glossary
-slug: /resources/glossary
+
 sidebar_position: 4
 ---
 

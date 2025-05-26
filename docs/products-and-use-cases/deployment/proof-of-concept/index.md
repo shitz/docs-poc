@@ -1,7 +1,6 @@
 ---
 title: Requesting a Proof of Concept
 sidebar_label: Requesting a Proof of Concept
-slug: /products-and-use-cases/deployment/proof-of-concept
 sidebar_position: 3
 ---
 

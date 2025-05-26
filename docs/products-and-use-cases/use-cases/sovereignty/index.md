@@ -1,6 +1,6 @@
 ---
+title: Enforcing Data Sovereignty & Geofencing
 sidebar_label: Enforcing Data Sovereignty & Geofencing
-slug: /products-and-use-cases/use-cases/sovereignty
 sidebar_position: 5
 ---
 

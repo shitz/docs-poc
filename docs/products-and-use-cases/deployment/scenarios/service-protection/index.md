@@ -1,7 +1,6 @@
 ---
 title: Service Protection
 sidebar_label: Service Protection
-slug: /products-and-use-cases/deployment/scenarios/service-protection
 sidebar_position: 2
 ---
 

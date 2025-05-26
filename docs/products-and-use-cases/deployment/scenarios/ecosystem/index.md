@@ -1,7 +1,6 @@
 ---
 title: Ecosystem Connectivity
 sidebar_label: Ecosystem Connectivity
-slug: /products-and-use-cases/deployment/scenarios/ecosystem-connectivity
 sidebar_position: 3
 ---
 

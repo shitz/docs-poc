@@ -1,10 +1,8 @@
 ---
 title: Anapaya CONSOLE - Unified SCION Management & Orchestration
 sidebar_label: Anapaya CONSOLE
-slug: /products-and-use-cases/products/console
+sidebar_position: 5
 ---
-
-# Anapaya Console: Unified SCION Management & Orchestration
 
 - **What it is:** Centralized platform for managing Anapaya devices and SCION network aspects.
 - **Value Proposition:** Simplifies deployment, monitoring, policy configuration, and operations.

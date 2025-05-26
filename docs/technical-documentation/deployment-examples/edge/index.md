@@ -1,7 +1,6 @@
 ---
 title: Anapaya EDGE
 sidebar_label: Anapaya EDGE
-slug: /technical-documentation/deployment-examples/edge
 sidebar_position: 1
 ---
 

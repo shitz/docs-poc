@@ -1,7 +1,6 @@
 ---
 title: OAuth for Appliance API - Auth0
 sidebar_label: OAuth for Appliance API - Auth0
-slug: /learning-hub/tutorials/oauth-auth0
 sidebar_position: 2
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Getting Started
 sidebar_label: Getting Started
-slug: /learning-hub/operator-training/getting-started
 sidebar_position: 1
 ---
 
