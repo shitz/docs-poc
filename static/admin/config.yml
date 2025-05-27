@@ -20,13 +20,43 @@ publish_mode: editorial_workflow
 site_url: https://anapaya-docs-poc.pages.dev/
 
 collections:
-- name: products-and-use-cases
-  label: "Products and Use Cases"
-  folder: docs/products-and-use-cases
+- name: products
+  label: "Products"
+  folder: docs/products-and-use-cases/products
   create: true
   publish: false
-  widget: list
-  extension: md
+  nested:
+    depth: 10
+    summary: '{{title}}'
+  fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Body
+      name: body
+      widget: markdown
+  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+- name: use-cases
+  label: "Use Cases"
+  folder: docs/products-and-use-cases/use-cases
+  create: true
+  publish: false
+  nested:
+    depth: 10
+    summary: '{{title}}'
+  fields:
+    - label: Title
+      name: title
+      widget: string
+    - label: Body
+      name: body
+      widget: markdown
+  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+- name: deployment
+  label: "Deployment"
+  folder: docs/products-and-use-cases/deployment
+  create: true
+  publish: false
   nested:
     depth: 10
     summary: '{{title}}'
@@ -43,8 +73,6 @@ collections:
   folder: docs/technical-documentation
   create: true
   publish: false
-  widget: list
-  extension: md
   nested:
     depth: 10
     summary: '{{title}}'
@@ -56,39 +84,39 @@ collections:
       name: body
       widget: markdown
   meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-- name: learning-hub
-  label: "Learning Hub"
-  folder: docs/learning-hub
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  nested:
-    depth: 10
-    summary: '{{title}}'
-  fields:
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
-- name: resources
-  label: "Resources"
-  folder: docs/resources
-  create: true
-  publish: false
-  widget: list
-  extension: md
-  nested:
-    depth: 10
-    summary: '{{title}}'
-  fields:
-    - label: Title
-      name: title
-      widget: string
-    - label: Body
-      name: body
-      widget: markdown
-  meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+# - name: learning-hub
+#   label: "Learning Hub"
+#   folder: docs/learning-hub
+#   create: true
+#   publish: false
+#   widget: list
+#   extension: md
+#   nested:
+#     depth: 10
+#     summary: '{{title}}'
+#   fields:
+#     - label: Title
+#       name: title
+#       widget: string
+#     - label: Body
+#       name: body
+#       widget: markdown
+#   meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
+# - name: resources
+#   label: "Resources"
+#   folder: docs/resources
+#   create: true
+#   publish: false
+#   widget: list
+#   extension: md
+#   nested:
+#     depth: 10
+#     summary: '{{title}}'
+#   fields:
+#     - label: Title
+#       name: title
+#       widget: string
+#     - label: Body
+#       name: body
+#       widget: markdown
+#   meta: { path: { widget: string, label: 'Path', index_file: 'index' } }
