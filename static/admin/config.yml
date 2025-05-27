@@ -75,7 +75,7 @@ collections:
   publish: false
   nested:
     depth: 10
-    summary: '{{title}}'
+    subfolders: true
   fields:
     - label: Title
       name: title
